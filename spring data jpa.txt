@@ -1,0 +1,18 @@
+lombok dependencie helps to reduce boilerplate code
+
+
+
+
+Fetch types:
+-eager and lazy. By default it is lazy.
+lazy:
+-if you fetch the courseMaterial, it will not fetch the course too only if you use it(for example use course field from courseMaterial)
+
+eager:
+-if you fetch the courseMaterial, it will automatically fetch the course too.
+
+
+
+
+On @ManyToMany relationship between two tables will create a third table.
+for example you have ManyToMany between a student and a course, so we need a table to represent this particular relation.
